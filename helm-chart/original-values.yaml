@@ -17,9 +17,9 @@
 # Declare variables to be passed into your templates.
 
 images:
-  repository: public.ecr.aws/j2g1c3z9/microservices
+  repository: gcr.io/google-samples/microservices-demo
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "latest"
+  tag: ""
 
 serviceAccounts:
   # Specifies whether service accounts should be created.
