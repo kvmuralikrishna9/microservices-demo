@@ -19,7 +19,7 @@
 images:
   repository: public.ecr.aws/j2g1c3z9/microservices
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "latest"
+  tag: "v1.0"
 
 serviceAccounts:
   # Specifies whether service accounts should be created.
